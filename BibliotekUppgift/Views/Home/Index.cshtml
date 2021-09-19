@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html>
+
+<head>
+    <meta name="viewport" content ="width = device- width"/>
+    <title>Index</title>
+</head>
+
+<body>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+    <script type="text/javascript">
+
+        function GetDynamicTextBox(value) {
+            return ' <br> <div> <input type = "text" name = " txttest" style= "width:200px; " /> <input type ="button" onclick="RemoveTextBox(this)" value="Remove" /> </div> ';
+        }
+
+        function AddTextBox() {
+             var div = document.createElement("DIV");
+
+             div.innerHTML = GetDynamicTextBox("");
+
+             document.getElementById("divCont").appendChild(div);
+        }
+
+        function RemoveTextBox(div) {
+            document.getElementById("divCont").removeChild(div.d.d);
+        }
+
+     </script>
+</div>
+
+    <div id="divCont">
+        <div> <input type ="text" name=" txttest" style="width:200px;" /> <input type ="button" onclick="AddTextBox()" value="Add" /> </div>
+    </div>
+
+
+
+</body>
+</html>

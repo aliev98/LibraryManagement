@@ -1,0 +1,11 @@
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\bin\Debug\netcoreapp3.1\LibraryApplication.deps.json
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\bin\Debug\netcoreapp3.1\LibraryApplication.dll
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\bin\Debug\netcoreapp3.1\LibraryApplication.pdb
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\bin\Debug\netcoreapp3.1\LibraryDomain.dll
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\bin\Debug\netcoreapp3.1\LibraryDomain.pdb
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\obj\Debug\netcoreapp3.1\LibraryApplication.csprojAssemblyReference.cache
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\obj\Debug\netcoreapp3.1\LibraryApplication.AssemblyInfoInputs.cache
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\obj\Debug\netcoreapp3.1\LibraryApplication.AssemblyInfo.cs
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\obj\Debug\netcoreapp3.1\LibraryApplication.csproj.CopyComplete
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\obj\Debug\netcoreapp3.1\LibraryApplication.dll
+C:\Users\kuba-\source\repos\BibliotekUppgift\LibraryApplication\obj\Debug\netcoreapp3.1\LibraryApplication.pdb

@@ -1,0 +1,46 @@
+﻿@model LibraryDomain.LoanDetails
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>LoanDetails</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="LoanDate" class="control-label"></label>
+                <input asp-for="LoanDate" class="form-control" />
+                <span asp-validation-for="LoanDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReturnDate" class="control-label"></label>
+                <input asp-for="ReturnDate" class="form-control" />
+                <span asp-validation-for="ReturnDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MemberDetails.Id" class="control-label"></label>
+                <input asp-for="MemberDetails.Id" class="form-control" />
+                <span asp-validation-for="MemberDetails.Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookCopy.Id" class="control-label"></label>
+                <input asp-for="BookCopy.Id" class="form-control" />
+                <span asp-validation-for="BookCopy.Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

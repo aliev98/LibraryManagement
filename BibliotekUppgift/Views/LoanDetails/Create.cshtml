@@ -1,0 +1,64 @@
+﻿@model BibliotekUppgift.Models.LoanCreateVm
+
+@{
+    ViewData["Title"] = "Create";
+
+    @*if(null != TempData["alertMessage"])
+    {
+        <script type="text/javascript">
+            alert("@TempData["alertMessage"]");
+        </script>
+
+        <h5> There are no more copies left of this book </h5>
+    }*@
+
+
+}
+
+<h1>Create</h1>
+
+<h4>LoanDetails</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*<div class="form-group">
+                    <label asp-for="LoanDate" class="control-label"></label>
+                    <input asp-for="LoanDate" class="form-control" />
+                    <span asp-validation-for="LoanDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ReturnDate" class="control-label"></label>
+                    <input asp-for="ReturnDate" class="form-control" />
+                    <span asp-validation-for="ReturnDate" class="text-danger"></span>
+                </div>*@
+            <div class="form-group">
+                <label asp-for="MemberList" class="control-label"></label>
+                @Html.DropDownListFor(m => m.MemberID, Model.MemberList, "Välj medlem")
+            </div>
+            <div class="form-group">
+                <label asp-for="BookList" class="control-label"></label>
+                @Html.DropDownListFor(m => m.BookDetailsID, Model.BookList, "Välj bok")
+            </div>
+
+            @if (null != TempData["alertMessage"])
+            {
+                    <h5 style="color:red"> There are no more copies of this book left </h5>
+            }
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                @Model.ErrorMessage
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

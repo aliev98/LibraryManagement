@@ -1,0 +1,51 @@
+﻿@model BibliotekUppgift.Models.BookIndexVm
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Books</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ISBN</th>
+            <th>Titel</th>
+            <th>Författare</th>
+            <th>Beskrivning</th>
+            <th>Copies</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model.books)
+        { 
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ISBN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfCopies)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id = "@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id = "@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id = "@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

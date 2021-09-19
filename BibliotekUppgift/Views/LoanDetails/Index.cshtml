@@ -1,0 +1,85 @@
+﻿@*@model IEnumerable<LibraryDomain.LoanDetails>*@
+@model BibliotekUppgift.Models.LoanIndexVm
+
+@{
+    ViewData["Title"] = "Index";
+
+   
+
+}
+
+<h1>Loans</h1>
+
+<p>
+    <a asp-action="Create">Make a new loan</a>
+</p>
+
+<table class="table">
+    @*<thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.LoanDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReturnDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MemberID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BookDetailsID)
+                </th>
+
+                <th></th>
+            </tr>
+        </thead>*@
+
+    <thead>
+        <tr>
+            <th>Loan date</th>
+            <th>Return date</th>
+            <th>Member ID</th>
+            <th>Book ID</th>
+            <th>Fee</th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+        @foreach (var item in Model.loans)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LoanDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReturnDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MemberDetailsId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookCopyId)
+
+                </td>
+
+                <td>
+                    @Html.DisplayFor(x => x.avgift)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+
+                    @if (Model.ReturnedOrNot == false)
+                    {
+                        <a asp-action="ReturnLoan" asp-route-id="@item.Id" type="submit">Return</a>
+                    }
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

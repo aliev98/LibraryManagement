@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryInfrastructure\\LibraryInfrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryApplication\\LibraryApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryApplication\\LibraryApplication.csproj",
+        "projectName": "LibraryApplication",
+        "projectPath": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryApplication\\LibraryApplication.csproj",
+        "packagesPath": "C:\\Users\\kuba-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kuba-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryDomain\\LibraryDomain.csproj": {
+                "projectPath": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryDomain\\LibraryDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryDomain\\LibraryDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryDomain\\LibraryDomain.csproj",
+        "projectName": "LibraryDomain",
+        "projectPath": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryDomain\\LibraryDomain.csproj",
+        "packagesPath": "C:\\Users\\kuba-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kuba-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryInfrastructure\\LibraryInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryInfrastructure\\LibraryInfrastructure.csproj",
+        "projectName": "LibraryInfrastructure",
+        "projectPath": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryInfrastructure\\LibraryInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\kuba-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kuba-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryApplication\\LibraryApplication.csproj": {
+                "projectPath": "C:\\Users\\kuba-\\source\\repos\\BibliotekUppgift\\LibraryApplication\\LibraryApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
